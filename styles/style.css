@@ -1,0 +1,310 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main style */
+
+.html
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    overflow:auto;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    padding: 25px;
+    display: inline-block;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background-color: khaki;
+    color: black;
+}
+
+.loading {
+    font-size: 30px;
+}
+
+.loading-2 {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.text-primary {
+    color: black;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.bnt:hover {
+    background-color: blue;
+}
+
+.btn-light {
+background-color: black;   
+color: #fff; 
+top: 20px;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: black;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background-color: #F0E68C;
+    color: #333;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Showcase Action */
+#showcase {
+    background-image: url(../images/pexels-mnz-1639729.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    text-align: center;
+    color: #fff;
+    padding-top: 170px;
+}
+
+#showcase h1 {
+    font-size: 60px;
+    color: black;
+}
+
+#showcase p {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/KKSKS-704760.jpg);
+}
+
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    
+}
+
+#home-info .info-content p {
+    padding-top:20px ;
+    font-size: 25px;
+    
+}
+
+/* features section */
+
+.box {
+    width: 33.3%;
+    float: left;
+    padding:50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+#main-footer {
+    background-color: #444;
+    text-align: center;
+    padding:20px;
+    color: #f4f4f4;
+}
+
+/* About us page */
+#about-info{
+    padding:20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#about-info .info-right {
+    float:right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right  img {
+   
+    margin-left:150px;
+    width: 70%;
+    border-radius: 50%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Testimonial Section */
+
+
+#testimonials {
+    height: 600px;
+    padding-top: 100px;
+    background-image: url(../images/pexels-mnz-1670770.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    
+
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 34px;
+
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9s;
+}
+
+.look {
+    text-align: center;
+    color: white;
+}
+
+#testimonials .testimonial img {
+    width: 12px;
+    float: left;
+    margin-right: 20px;
+   border-radius:20% ;
+  
+}
+
+/* contact us page */
+#contact-form{
+    padding:20px 0;
+}
+#contact-form h1{
+font-size: 32px;
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+#contact-info {
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'rob-serif';
+    src: url('../fonts/RobotoSerif_120pt-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'extra - bold';
+    src: url('../fonts/RobotoSerif_ExtraExpanded-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'medium-italic';
+    src: url('../fonts/RobotoSerif_ExtraExpanded-MediumItalic.ttf');
+}
+@font-face {
+    font-family: 'sembold-italic';
+    src: url('../fonts/RobotoSerif_ExtraExpanded-SemiBoldItalic.ttf');
+}
